@@ -46,12 +46,12 @@
     todoItems = [...todoItems, todo];
     newTodo = "";
   }
-
+//This is the completed function
   function toggleDone(id) {
   const index = todoItems.findIndex(item => item.id === Number(id));
   todoItems[index].checked = !todoItems[index].checked;
 }
-
+//This is the delete function
   function deleteTodo(id) {
     todoItems = todoItems.filter(item => item.id !== Number(id));
   }
