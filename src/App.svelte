@@ -1,5 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
   	let time = new Date();
   	let hour = time.getHours();
   	let minute = Math.floor(time.getMinutes() / 15) * 15;
